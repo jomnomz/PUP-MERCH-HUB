@@ -1,0 +1,175 @@
+.cart{
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+.product img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    height: 230px;
+    width: 600px;
+    align-items: center;
+    background-color: #F1F1F1;
+    margin-bottom: 10px;
+}
+
+
+.item_det{
+    margin-left: 10px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.quantity{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.quantity-container {
+    position: absolute;
+    right: 60px;
+    bottom: -5px;
+  }
+
+input[type="number"] {
+    width: 60px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  .FS{
+    color: rgb(23, 192, 23);
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .circle{
+    border-radius: 50px;
+    width: 13px;
+    background-color: green;
+    color: white;
+    text-align: center;
+  }
+
+.check{
+    font-size: 10px;
+}
+
+.circle-and-stock {
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+
+
+.ad img{
+    height: 180px;
+    right: 70px;
+    position: absolute;
+    top: 100px;
+}
+
+@media only screen and (max-width: 410px){
+    .cart{
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+        height: 800px;
+    }
+    
+    
+    
+    .product img{
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+    
+    .product{
+        display: flex;
+        flex-direction: row;
+        height: 230px;
+        width: 600px;
+        align-items: center;
+        background-color: #F1F1F1;
+        margin-bottom: 10px;
+    }
+    
+    
+    .item_det{
+        margin-left: 10px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; 
+    }
+    
+    .quantity{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    .quantity-container {
+        position: absolute;
+        right: 60px;
+        bottom: -5px;
+      }
+    
+    input[type="number"] {
+        width: 60px;
+        text-align: center;
+        font-size: 16px;
+        border: 1px solid #111111;
+        border-radius: 5px;
+        padding: 5px 10px;
+      }
+    
+      .FS{
+        color: rgb(23, 192, 23);
+        font-weight: bold;
+        font-size: 10px;
+      }
+    
+      .circle{
+        border-radius: 50px;
+        width: 13px;
+        background-color: green;
+        color: white;
+        text-align: center;
+      }
+    
+    .check{
+        font-size: 10px;
+    }
+    
+    .circle-and-stock {
+        display: flex;
+        align-items: center; 
+        gap: 5px;
+    }
+    
+    
+    .ad img{
+        visibility: collapse;
+    }
+}
+
+

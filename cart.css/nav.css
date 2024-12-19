@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.navttl{
+    flex: .6;
+
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.ttl{
+    text-decoration: none;
+    color: black;
+}
+
+.navatr{
+    flex: .9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+
+.navbtn{
+    display: flex;
+    flex: .2;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navattribute{
+    font-size: 20px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-user, .fa-cart-shopping{
+    color: black;
+    font-size: 30px;
+}
+
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+
+nav input{
+    padding: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+}
+
+
+
+@media only screen and (max-width: 410px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100px;
+        box-shadow: 1px 1px 1px gray;
+    }
+
+    .navttl{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        margin-left: -40px;
+
+    }
+    
+    .ttl{
+        font-size: 20px;
+    }
+    
+    .navatr{
+        flex: .1    ;
+
+    }
+    
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+    
+    
+    .navbtn{
+        flex: .5;
+  
+    }
+    
+    .navattribute{
+        color: black;
+        font-size:10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .fa-user, .fa-cart-shopping{
+        color: black;
+        font-size: 15px;
+    }
+    
+    .fa-magnifying-glass{
+        font-size: 10px;
+    }
+    
+    nav input{
+        width: 100px;
+        height: 10px;
+        border-radius: 30px;
+        margin-right: 10px;
+        background-color: rgb(235, 235, 235);
+        border: none;
+    }
+    
+
+}

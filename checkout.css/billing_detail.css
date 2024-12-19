@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.billing_detail{
+    width: 600px;
+    position: absolute;
+    right: 100px;
+    bottom: 60px;
+}
+
+label {
+    display: block;
+}
+
+input{
+    padding: 10px 15px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    margin-top: 8px;
+}
+
+.formatr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.BD{
+    font-weight: 1000;
+    font-size: 20px;
+
+}
+
+.AI{
+    font-weight: 1000;
+    margin-bottom: 5px;
+}
+
+.additional{
+    padding: 30px 11px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 410px){
+    .billing_detail{
+        position: absolute;
+        left: 100px;
+        bottom: -700px;
+    }
+    
+    label {
+        display: block;
+    }
+    
+    input{
+        padding: 5px 10px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: gray;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .formatr{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .BD{
+        font-weight: 1000;
+        font-size: 20px;
+    }
+    
+    .AI{
+        font-weight: 1000;
+        margin-bottom: 5px;
+    }
+    
+    .additional{
+        padding: 30px 11px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}
+
+

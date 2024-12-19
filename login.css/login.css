@@ -1,0 +1,63 @@
+.login_text{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.login_text h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login_text p{
+    font-size: 15px;
+    color: rgb(133, 133, 133)
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.loginput{
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.loginbtn{
+    margin-top: 20PX;
+    padding: 13px 40px;
+    border-radius: 5px;
+    background-color: #8B1205;
+    color: white;
+}
+
+.ll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mark1{
+    padding: 0 10px;
+    margin-left: 130px;
+    display: inline-block;
+    transform: rotate(-1deg);
+}
+
+.paragraph{
+    margin-top: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+pre{
+    font-size: 70px;
+    font-weight: bold;
+}
